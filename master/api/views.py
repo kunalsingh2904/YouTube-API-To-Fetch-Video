@@ -20,3 +20,6 @@ class VideoDetailListAPIView(ListAPIView):
             # Add other serach field if required
             queryset = queryset.filter(Q(title__icontains=query) | Q(description__icontains=query))
         return queryset.order_by('-published_datetime')
+
+
+video_list_view = VideoDetailListAPIView.as_view()
