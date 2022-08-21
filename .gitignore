@@ -1,0 +1,4 @@
+master/.vscode/
+master/db.sqlite3
+master/**/migrations/*_*.py
+master/**/migrations/*_*.pyc
