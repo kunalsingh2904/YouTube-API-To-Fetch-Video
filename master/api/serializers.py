@@ -1,8 +1,8 @@
 from rest_framework import serializers
 
-from .models import VideoDetails
+from .models import VideoDetail
 
 class YoutubeSerializer(serializers.ModelSerializer):
     class Meta:
-        model = VideoDetails
+        model = VideoDetail
         fields = '__all__'
