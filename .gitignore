@@ -1,4 +1,6 @@
 master/.vscode/
-master/db.sqlite3
-master/**/migrations/*_*.py
-master/**/migrations/*_*.pyc
+/db.sqlite3
+**/migrations/*_*.py
+**/migrations/*_*.pyc
+*.pyc
+venv/
